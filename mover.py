@@ -20,7 +20,7 @@ else:
     config.set("Folders", "Audios", "mp3,aac,flac,alac,wav,aiff,dsd,pcm")
     config.set("Folders", "Documents", "pdf,docx,doc,xls,xlsx,txt,ppt,pptx,odp")
     config.set("Folders", "Installers", "exe,msi,iso")
-    config.set("Folders", "Pictures", "png,jpeg,gif,tiff,psd,raw,webp,svg,tiff,tif")
+    config.set("Folders", "Pictures", "png,jpeg,gif,psd,raw,webp,svg,tiff,tif")
     config.set("Folders", "Zips", "zip,rar,7z,pkg")
     with open(configname, 'w') as configfile:    # save
         config.write(configfile)       
